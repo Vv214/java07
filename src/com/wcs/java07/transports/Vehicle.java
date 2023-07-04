@@ -24,6 +24,7 @@ abstract class Vehicle {
     public void setKilometers(int kilometers) {
         this.kilometers = kilometers;
     }
-
+    
+    @Override
     public abstract String doStuff();
 }
